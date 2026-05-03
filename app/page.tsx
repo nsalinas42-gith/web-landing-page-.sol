@@ -6,7 +6,6 @@ import { TickerBVC } from "@/components/ticker-bvc"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { BiographyBlock } from "@/components/biography-block"
 import { LanguageProvider } from "@/lib/language-context"
-import { BlogHiveBlock } from "@/components/BlogHiveBlock"
 
 export default function Home() {
   return (
