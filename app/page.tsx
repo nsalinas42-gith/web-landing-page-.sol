@@ -4,6 +4,7 @@ import { HeroBanner } from "@/components/hero-banner"
 import { SubtitleBlock } from "@/components/subtitle-block"
 import { TickerBVC } from "@/components/ticker-bvc"
 import { LanguageSwitcher } from "@/components/language-switcher"
+import { BiographyBlock } from "@/components/biography-block"
 import { LanguageProvider } from "@/lib/language-context"
 
 export default function Home() {
@@ -21,6 +22,9 @@ export default function Home() {
         
         {/* Bloque 3 Ticker BVC */}
         <TickerBVC />
+        
+        {/* Bloque 4 Biografía */}
+        <BiographyBlock />
       </main>
     </LanguageProvider>
   )
