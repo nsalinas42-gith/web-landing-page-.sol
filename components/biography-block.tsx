@@ -29,18 +29,17 @@ export function BiographyBlock() {
           <p className="mb-4">
             {t.biography.experience}
           </p>
-          <p>
+          <p className="mb-4">
             {t.biography.growth}
           </p>
+          {/* Cita 1 */}
+          <blockquote className="border-l-4 border-[#29283B] pl-4 italic font-bold">
+            {t.biography.quote1}
+          </blockquote>
         </div>
 
         {/* Columna Derecha */}
         <div className="text-[#000000] text-[16px] font-sans leading-relaxed">
-          {/* Cita 1 */}
-          <blockquote className="border-l-4 border-[#29283B] pl-4 mb-4 italic font-bold">
-            {t.biography.quote1}
-          </blockquote>
-          
           <p className="mb-4">
             {t.biography.future}
           </p>
