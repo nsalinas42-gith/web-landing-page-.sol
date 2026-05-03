@@ -9,7 +9,7 @@ export function BiographyBlock() {
   return (
     <section className="w-full bg-white px-[20px] pt-[20px] pb-[40px]">
       {/* Título */}
-      <h2 className="font-sans font-normal text-[#000000] text-[20px] text-center mb-[20px]">
+      <h2 className="font-sans font-normal text-[#000000] text-[40px] text-center mb-[40px]">
         Dev Web | Mobile Content Creator
       </h2>
 
